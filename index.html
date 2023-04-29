@@ -9,6 +9,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/outline.css" />
+    <link rel="stylesheet" href="css/outline-settings.css" />
     <title>Яхт клуб</title>
   </head>
   <body class="page">
@@ -62,18 +64,20 @@
           alt="Парусное судно на закате"
         />
       </section>
-      <article class="blog-article">
-        <p>
+      <article class="blog-article blog-article-1">
+        <div class="blog-article-description">
+        <p class="blog-article-date">
           <time datetime="2021-10-20">20 октября</time> -
           <time datetime="2021-04-19">19 апреля</time>
         </p>
         <h2>Стань частью команды</h2>
-        <p>
+        <p class="description-text">
           Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее
           время! Мы набираем команду будущих шкиперов. За 6 вы станете настоящим
           капитаном и уже в следующем сезоне сможете самостоятельно выйти в
           море!
         </p>
+      </div>
         <img
           class="blog-article-img"
           src="img/article1-photo.jpg"
@@ -82,17 +86,19 @@
           alt="Мужчина на яхте смотрит в бинокль"
         />
       </article>
-      <article class="blog-article">
-        <p>
+      <article class="blog-article blog-article-2">
+      <div class="blog-article-description">
+        <p class="blog-article-date">
           <time datetime="2021-07-16">16 июля</time> -
           <time datetime="2021-07-23">23 июля</time>
         </p>
         <h2>Рожденные в воде</h2>
-        <p>
+        <p class="description-text">
           Подарите детям настоящее приключение! День с морскими пиратами на
           корабле – это лучшая команда, веселые аниматоры, игры, соревнования,
           работа в команде и, конечно, море!
         </p>
+      </div>
         <img
           class="blog-article-img"
           src="img/article2-photo.jpg"
@@ -150,9 +156,12 @@
           Поздравляем победителей и ждем все участников снова на осенних
           регатах!
         </p>
-        <img src="img/author.jpg" width="60" height="60" alt="Автор" />
+        <div class="author">
+        <img src="img/author.jpg" class="avatar" width="60" height="60" alt="Автор" />
+        <div class="author-desc">
         <p class="author-name">Артем Колесников</p>
         <time class="news-date" datetime="2021-06-20">20.06.2021</time>
+        </div>
         <a href="#">
           <img
             src="img/share-icon.svg"
@@ -161,8 +170,10 @@
             alt="Кнопка поделиться"
           />
         </a>
+        </div>
       </section>
       <section class="contacts">
+        <div class="contacts-wrapper">
         <h2>Контакты</h2>
         <ul class="contact-items">
           <li class="contact-item">
@@ -178,6 +189,7 @@
             <a href="mailto:yachtclub-sochi@mail.ru">yachtclub-sochi@mail.ru</a>
           </li>
           <li class="contact-item">
+            <div class="socials">
             <h3>Мы в социальных сетях:</h3>
             <ul class="social-list">
               <li class="social-item">
@@ -210,9 +222,11 @@
                   />
                 </a>
               </li>
+            </div>
             </ul>
           </li>
         </ul>
+        </div>
         <img
           class="contacts-img"
           src="img/map.jpg"
@@ -223,6 +237,7 @@
       </section>
     </main>
     <footer class="main-footer">
+      <div class="credits">
       <p class="logo">
         <img
           src="img/logotype.svg"
@@ -233,6 +248,7 @@
       </p>
       <p class="policy"><a href="#">Политика конфиденциальности</a></p>
       <p class="copyright">Яхтклуб ©2020 Все права защищены</p>
+      </div>
       <ul class="footer-navigation-topics">
         <li class="footer-navigation-topic">
           <h2>Компания</h2>

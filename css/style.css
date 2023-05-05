@@ -4,6 +4,7 @@ body {
   line-height: 24px;
   color: #163152;
   background-color: #fdfdff;
+  margin: 0;
 }
 
 .page-header{
@@ -46,8 +47,35 @@ body {
   text-decoration: none;
 }
 
+.site-navigation-item a:hover{
+  opacity: 0.5;
+}
+
+.site-navigation-item a:active{
+  opacity: 0.3;
+}
+
 .main-nav .signin{
-  padding-top: 45px;
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin-top: 36px;
+  border: 1px solid #00C6BD;
+  border-radius: 50%;
+}
+
+.signin:hover{
+  opacity: 0.5;
+}
+
+.signin:active{
+  opacity: 0.3;
+}
+
+
+.signin img{
+  position: relative;
+  margin: 9px 10px;
 }
 
 .hero{
@@ -65,6 +93,10 @@ body {
   margin-top: 0;
   margin-bottom: 40px;
   margin-left: 70px;
+}
+
+.hero img{
+  display: block;
 }
 
 .blog-article{
@@ -114,6 +146,69 @@ body {
 
 .blog-article .description-text{
   padding-top: 20px;
+}
+
+.gallery {
+  margin-bottom: 120px;
+  padding: 0 55px;
+}
+
+.gallery h2 {
+  margin: 0;
+  margin-bottom: 55px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #00c6bd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+  text-underline-position: under;
+}
+
+.slider {
+  display: flex;
+  align-items: flex-start;
+}
+
+.active-photo {
+  width: 970px;
+  margin-right: 30px;
+  display: block;
+}
+
+.preview-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 170px;
+}
+
+.preview-list img{
+  display: block;
+}
+
+.preview-list a{
+  position: relative;
+  display: block;
+}
+
+.preview-list a::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(253, 253, 255, 0.5);
+}
+
+.preview-list li {
+  margin-bottom: 30px;
+}
+
+.preview-list li:last-child {
+  margin-bottom: 0;
 }
 
 .news{
@@ -227,6 +322,14 @@ body {
     color: #8693a4;
 }
 
+.news .share:hover{
+  opacity: 0.5;;
+}
+
+.news .share:active{
+  opacity: 0.3;;
+}
+
 .contacts{
   width: 1010px;
   margin: 0 215px 0 55px;
@@ -294,6 +397,25 @@ body {
   margin-bottom: 26px;
 }
 
+.social-item{
+  display: block;
+}
+
+.social-item a{
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 1px #00C6BD solid;
+  border-radius: 50%;
+}
+
+.social-item img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 11px;
+}
+
 .main-footer {
   border-top: 1px solid #1631521A;
   font-size: 10px;
@@ -346,6 +468,10 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.footer-navigation-item{
+  margin-bottom: 16px;
 }
 
 .footer-navigation-item a {

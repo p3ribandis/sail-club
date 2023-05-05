@@ -163,6 +163,97 @@ body {
   margin-top: 0;
 }
 
+.rent{
+  width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.rent h2{
+  margin-top: 0;
+  margin-bottom: 55px;
+  font-size: 24px;
+  line-height: 34px;
+  text-decoration: underline;
+  text-decoration-color: #00c6bd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+  text-underline-position: under;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 30px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  padding: 30px;
+  margin: 0;
+  background: #FDFDFF;
+  box-shadow: 0px 4px 30px rgba(22, 49, 82, 0.12);
+}
+
+.card img{
+  display: block;
+  margin-bottom: 21px;
+}
+
+.card h3{
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.card p{
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.card .properties{
+  margin: 0;
+  padding: 0;
+  list-style: disc;
+  padding-left: 18px;
+  margin-bottom: 29px;
+}
+
+.card .properties li p{
+  font-size: 14px;
+  line-height: 19px;
+
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.card .properties li p:last-child{
+  margin-bottom: 0;
+}
+
+
+.card .cost-container{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.card .cost-container p{
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
 .gallery {
   margin-bottom: 120px;
 }
